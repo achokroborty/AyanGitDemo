@@ -16,6 +16,7 @@ import rahulshettyacademy.SeleniumFrameWorkDesign.Pageobject.OrderPage;
 public class Abstractmethods {
 
 	WebDriver driver;
+	
 
 	
 	public Abstractmethods(WebDriver driver) {
@@ -32,6 +33,7 @@ public class Abstractmethods {
 		addtocart.click();
 		Checkout cc=new Checkout(driver);
 		return cc;
+		
 		
 	}
 	public OrderPage goOrder() {
