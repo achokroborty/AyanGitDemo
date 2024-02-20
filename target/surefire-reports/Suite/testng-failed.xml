@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Submit Order Test(failed)" verbose="0">
+    <classes>
+      <class name="rahulshettyacademy.SeleniumFrameWorkDesign.tests.Submitorder">
+        <methods>
+          <include name="teardown"/>
+          <include name="submitorder"/>
+          <include name="validateOrder"/>
+          <include name="launchapplication"/>
+        </methods>
+      </class> <!-- rahulshettyacademy.SeleniumFrameWorkDesign.tests.Submitorder -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
